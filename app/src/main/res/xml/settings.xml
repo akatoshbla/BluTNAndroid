@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/settings_title">
+
+        <SwitchPreference
+            android:key="@string/temperatureType"
+            android:title="@string/temperature_settings_title"
+            android:summary="@string/temperature_settings_summary"
+            android:defaultValue="false"/>
+
+        <ListPreference
+            android:key="@string/pressureType"
+            android:title="@string/pressure_settings_title"
+            android:summary="@string/pressure_settings_summary"
+            android:entries="@array/pressureTypes"
+            android:dialogTitle="@string/pressure_dialog_title"
+            android:entryValues="@array/entryValues_pressure"
+            android:defaultValue="@string/default_pressure_unit"/>
+    </PreferenceCategory>
+</PreferenceScreen>

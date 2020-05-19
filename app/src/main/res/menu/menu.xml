@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        android:icon="@drawable/ic_menu_autorenew"
+        android:actionLayout="@layout/refresh"
+        app:showAsAction="ifRoom"
+        style="@android:style/Widget.ActionButton" />
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings_menu"
+        android:icon="@drawable/ic_menu_settings"
+        app:showAsAction="ifRoom"
+        style="@android:style/Widget.ActionButton" />
+</menu>

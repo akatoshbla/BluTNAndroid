@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pressureTypes">
+        <item>Pounds per square inch</item>
+        <item>Inches of mercury</item>
+        <item>Inches of water</item>
+        <item>Feet of water</item>
+        <item>Millimeters of water</item>
+        <item>Centimetres of water</item>
+        <item>Meters of water</item>
+        <item>Millitorr</item>
+        <item>Torr</item>
+        <item>Standard atmosphere</item>
+        <item>Millibar</item>
+        <item>Bar</item>
+        <item>Pascal</item>
+        <item>Kilopascal</item>
+        <item>Megapascal</item>
+    </string-array>
+
+    <string-array name="entryValues_pressure">
+        <item>psi</item>
+        <item>inHG</item>
+        <item>inH2O</item>
+        <item>ftH2O</item>
+        <item>mmH2O</item>
+        <item>cmH2O</item>
+        <item>mH2O</item>
+        <item>mTorr</item>
+        <item>Torr</item>
+        <item>atm</item>
+        <item>mbar</item>
+        <item>bar</item>
+        <item>Pa</item>
+        <item>kPa</item>
+        <item>MPa</item>
+    </string-array>
+</resources>

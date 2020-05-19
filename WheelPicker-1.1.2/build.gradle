@@ -1,0 +1,4 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('WheelPicker-1.1.2.aar'))
+dependencies {
+}
